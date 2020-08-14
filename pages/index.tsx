@@ -102,9 +102,9 @@ export default function Home() {
           <MailButton />
         </div>
       </section>
-      <section className="flex flex-col justify-around flex-shrink-0 block mx-6 max-w-screen-xl lg:flex-row">
+      <section className="flex flex-col justify-around flex-shrink-0 block mx-2 max-w-screen-xl lg:flex-row">
         <div
-          className="flex items-center content-center justify-center bg-local bg-center bg-no-repeat md:ml-16 xl:ml-32 lg:order-last"
+          className="flex items-center content-center justify-center p-10 bg-local bg-center bg-no-repeat md:ml-16 xl:ml-32 lg:order-last"
           style={{
             backgroundImage: "url(/image-background.svg)",
           }}
@@ -115,7 +115,7 @@ export default function Home() {
             alt="Knitted Scrunchie next to yellow and blue yarn"
           />
         </div>
-        <div className="mt-2 text-gray-800">
+        <div className="mx-4 mt-2 text-gray-800">
           <h1 className="my-5 text-3xl font-semibold leading-tight text-gray-900 capitalize break-normal sm:text-4xl lg:text-5xl">
             Sustainable Knitwear <br /> handmade for you
           </h1>
