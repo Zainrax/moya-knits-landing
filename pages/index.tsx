@@ -103,9 +103,14 @@ export default function Home() {
         </div>
       </section>
       <section className="flex flex-col justify-around flex-shrink-0 block mx-6 max-w-screen-xl lg:flex-row">
-        <div className="lg:order-last">
+        <div
+          className="flex items-center content-center justify-center bg-local bg-center bg-no-repeat md:ml-16 xl:ml-32 lg:order-last"
+          style={{
+            backgroundImage: "url(/image-background.svg)",
+          }}
+        >
           <img
-            className="max-w-xs rounded-full shadow-lg md:ml-16 xl:ml-32 sm:max-w-md "
+            className="w-9/12 max-w-xs rounded-full shadow-lg sm:max-w-md"
             src="/scrunchie.jpg"
             alt="Knitted Scrunchie next to yellow and blue yarn"
           />
