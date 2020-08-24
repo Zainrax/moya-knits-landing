@@ -34,7 +34,7 @@ function AnimatedScrunchie() {
   const trans3 = (x: number, y: number): any =>
     `translate3d(${x / 65 + 10}px,${y / 65}px,0)`;
   const trans4 = (x: number, y: number): any =>
-    `translate3d(${x / 55 + 18}px,${y / 55}px,0)`;
+    `translate3d(${x / 75 + 18}px,${y / 55}px,0)`;
   const { skewX, skewY } = useSpring({
     from: { skewX: 0, skewY: 0 },
     to: async (next) => {
