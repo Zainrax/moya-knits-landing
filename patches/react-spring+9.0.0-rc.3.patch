@@ -1,5 +1,5 @@
 diff --git a/node_modules/react-spring/package.json b/node_modules/react-spring/package.json
-index e232e0a..8a5aebd 100644
+index 77df9b6..8a5aebd 100644
 --- a/node_modules/react-spring/package.json
 +++ b/node_modules/react-spring/package.json
 @@ -1,26 +1,28 @@
@@ -33,7 +33,7 @@ index e232e0a..8a5aebd 100644
    "_resolved": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
    "_shasum": "0ad7b1e803f4385b7cbb44fff6d26f5be78884d6",
 -  "_spec": "react-spring@https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
--  "_where": "/private/var/folders/6s/p0myxdt51kbd783sbyw5mdn80000gn/T/tmp-17478rXQSW07wcfuY",
+-  "_where": "/private/var/folders/6s/p0myxdt51kbd783sbyw5mdn80000gn/T/tmp-1930506l4N7ii3ZoO",
 +  "_spec": "react-spring@next",
 +  "_where": "/Users/abra/projects/moya-knits-landing",
    "author": {
