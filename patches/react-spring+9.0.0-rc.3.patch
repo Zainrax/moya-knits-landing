@@ -1,0 +1,49 @@
+diff --git a/node_modules/react-spring/package.json b/node_modules/react-spring/package.json
+index e232e0a..8a5aebd 100644
+--- a/node_modules/react-spring/package.json
++++ b/node_modules/react-spring/package.json
+@@ -1,26 +1,28 @@
+ {
+-  "_from": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
++  "_from": "react-spring@next",
+   "_id": "react-spring@9.0.0-rc.3",
+   "_inBundle": false,
+   "_integrity": "sha512-VX5Gi6svgRzjGvJ7qVRQBhFN+O2IuPvkSWepIg838LNIMqlc42xdIYtoGJYSqYjNO3IocSfkHlh49WVw6hHMUg==",
+   "_location": "/react-spring",
+   "_phantomChildren": {},
+   "_requested": {
+-    "type": "remote",
+-    "raw": "react-spring@https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
++    "type": "tag",
++    "registry": true,
++    "raw": "react-spring@next",
+     "name": "react-spring",
+     "escapedName": "react-spring",
+-    "rawSpec": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
+-    "saveSpec": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
+-    "fetchSpec": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz"
++    "rawSpec": "next",
++    "saveSpec": null,
++    "fetchSpec": "next"
+   },
+   "_requiredBy": [
++    "#USER",
+     "/"
+   ],
+   "_resolved": "https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
+   "_shasum": "0ad7b1e803f4385b7cbb44fff6d26f5be78884d6",
+-  "_spec": "react-spring@https://registry.npmjs.org/react-spring/-/react-spring-9.0.0-rc.3.tgz",
+-  "_where": "/private/var/folders/6s/p0myxdt51kbd783sbyw5mdn80000gn/T/tmp-17478rXQSW07wcfuY",
++  "_spec": "react-spring@next",
++  "_where": "/Users/abra/projects/moya-knits-landing",
+   "author": {
+     "name": "Paul Henschel"
+   },
+@@ -64,7 +66,6 @@
+   "publishConfig": {
+     "access": "public"
+   },
+-  "sideEffects": false,
+   "types": "web.d.ts",
+   "version": "9.0.0-rc.3"
+ }
