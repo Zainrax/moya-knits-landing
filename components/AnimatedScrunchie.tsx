@@ -2,6 +2,10 @@ import { useState, useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 import { easeElasticInOut } from "d3-ease";
 
+function getRandomArbitrary(min: number, max: number): number {
+  return Math.random() * (max - min) + min;
+}
+
 const useMousePosition = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
 
@@ -37,12 +41,8 @@ function AnimatedScrunchie() {
     `translate3d(${x / 75 + 18}px,${y / 55}px,0)`;
   const { skewX, skewY } = useSpring({
     from: { skewX: 0, skewY: 0 },
-    to: async (next) => {
-      while (1) {
-        await next({ skewX: Math.random() * 2, skewY: Math.random() * -2 });
-        await next({ skewX: Math.random() * -2, skewY: Math.random() * 2 });
-      }
-    },
+    to: { skewX: getRandomArbitrary(-2, 2), skewY: getRandomArbitrary(-2, 2) },
+    loop: true,
     config: {
       tension: 400,
       mass: 400,
