@@ -41,10 +41,10 @@ function AnimatedScrunchie() {
     `translate3d(${x / 75 + 18}px,${y / 55}px,0)`;
   const { skewX, skewY } = useSpring({
     from: { skewX: 0, skewY: 0 },
-    to: { skewX: getRandomArbitrary(-2, 2), skewY: getRandomArbitrary(-2, 2) },
+    to: { skewX: getRandomArbitrary(-1, 1), skewY: getRandomArbitrary(-1, 1) },
     loop: true,
     config: {
-      tension: 400,
+      tension: 200,
       mass: 400,
       easing: easeElasticInOut,
     },
