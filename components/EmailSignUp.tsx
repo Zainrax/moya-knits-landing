@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { animated, useSpring, useTransition } from "react-spring";
+import { animated, useTransition } from "react-spring";
 
 const EmailSignUp = () => {
   enum SendingStatus {
@@ -68,6 +68,7 @@ const EmailSignUp = () => {
           placeholder="Enter your email"
           onFocus={() => setStatus(SendingStatus.SEND)}
           ref={email}
+          required
         />
         <div className="mt-3 shadow rounded-md sm:mt-0 sm:ml-3 sm:flex-shrink-0">
           <button
