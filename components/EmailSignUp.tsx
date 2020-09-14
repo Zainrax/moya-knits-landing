@@ -46,7 +46,7 @@ const EmailSignUp = () => {
     return (
       <animated.h1 key={state} className={"w-20"} style={style}>
         {status === SendingStatus.SEND
-          ? "notify me"
+          ? "Notify me"
           : status === SendingStatus.SENT
           ? "sending..."
           : status === SendingStatus.RECIEVED
