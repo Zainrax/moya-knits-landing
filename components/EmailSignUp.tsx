@@ -44,7 +44,7 @@ const EmailSignUp = () => {
 
   const text = sendTransition((style, state) => {
     return (
-      <animated.h1 key={state} className={"w-20"} style={style}>
+      <animated.h1 key={state} className={"w-20"} style={style as any}>
         {status === SendingStatus.SEND
           ? "Notify me"
           : status === SendingStatus.SENT
